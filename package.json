@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gak091/myprofileui#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "path": "^0.12.7"
   }
 }
