@@ -1,0 +1,22 @@
+{
+  "name": "myprofileui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gak091/myprofileui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gak091/myprofileui/issues"
+  },
+  "homepage": "https://github.com/gak091/myprofileui#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
