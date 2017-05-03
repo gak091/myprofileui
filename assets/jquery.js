@@ -839,11 +839,6 @@ function Sizzle( selector, context, results, seed ) {
 				if ( nodeType !== 1 ) {
 					newContext = context;
 					newSelector = selector;
-
-				// qSA looks outside Element context, which is not what we want
-				// Thanks to Andrew Dupont for this workaround technique
-				// Support: IE <=8
-				// Exclude object elements
 				} else if ( context.nodeName.toLowerCase() !== "object" ) {
 
 					// Capture the context ID, setting it first if necessary
