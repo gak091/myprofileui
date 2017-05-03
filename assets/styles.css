@@ -40,6 +40,35 @@ body {
   overflow: hidden;
 }
 
+
+
+
+@media only screen and (max-width:414px) {/* iPhone 6 plus*/ 
+    .phone-canvas {
+      width: 600px;
+      height: 1100px;
+  }
+  .chat-ui-canvas {
+     min-width: 600px;
+  min-height: 1100px;
+  }
+}
+
+
+
+/* MinWidth 768 */ 
+@media only screen and (min-width:641px)  and (max-width:768px) { 
+    .phone-canvas {
+      width: 500px;
+      height: 889px;
+  }
+  .chat-ui-canvas {
+     min-width: 340px;
+    min-height: 604px;
+  }
+}
+
+
 .header {
   outline: white 3px solid;
   position: relative;
