@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Chat Widget</title>
-        <link rel="stylesheet" type="text/css" href="assets/styles.css">
-        <script src="assets/jquery-1.12.1.min.js" type="text/javascript"></script>
-        <script src="assets/functions.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <div class="info-panel">
-            <div class="info-title">
-                <h1>Chat Widget</h1>
-                <h2> <a rel="nofollow" target="_new" href="#">Arvind</a></h2>
-            </div>
+
+<head>
+    <title>Chat Widget</title>
+    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <script src="assets/jquery-1.12.1.min.js" type="text/javascript"></script>
+    <script src="assets/functions.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="info-panel">
+        <div class="info-title">
+            <h1>Chat Widget</h1>
+            <h2> <a rel="nofollow" target="_new" href="#">Arvind</a></h2>
         </div>
-        <div class="phone-canvas">
-            <div class="chat-ui-canvas">
-                <div id="header" class="header header-scrolled">
-                    <div class="top-icons">
-                        <div class="back-arrow">
-                            <div class="back-arrow-line back-arrow-line-1"></div>
-                            <div class="back-arrow-line back-arrow-line-2"></div>
-                            <div class="back-arrow-line back-arrow-line-3"></div>
-                        </div>
-                        <div class="phone-icon">
-                            <img src="image-store/icons/phone.png" height="50%">
-                        </div>
+    </div>
+    <div class="phone-canvas">
+        <div class="chat-ui-canvas">
+            <div id="header" class="header header-scrolled">
+                <div class="top-icons">
+                    <div class="back-arrow">
+                        <div class="back-arrow-line back-arrow-line-1"></div>
+                        <div class="back-arrow-line back-arrow-line-2"></div>
+                        <div class="back-arrow-line back-arrow-line-3"></div>
                     </div>
-                    <div class="user-header-image"></div>
-                    <div class="user-name-header"><h1>Arvind Kumar G</h1></div>
-                </div>
-                <div id="message-feed" class="message-feed message-feed-unscrolled">
-                    
-                </div>
-                <div class="message-input-bar">
-                    <div id="media-expand-arrow" class="media-expand-arrow">
-                        <div class="media-expand-arrow-line media-expand-arrow-line-1"></div>
-                        <div class="media-expand-arrow-line media-expand-arrow-line-2"></div>
-                        <div class="media-expand-arrow-line media-expand-arrow-line-3"></div>
-                    </div>
-                    <div class="message-text-input">
-                        <form class="message-send">
-                            <textarea id="message-input" placeholder="Message..." value=""></textarea>
-                        </form>
+                    <div class="phone-icon">
+                        <img src="image-store/icons/phone.png" height="50%">
                     </div>
                 </div>
-                <div id="media-bar" class="media-bar">
-                    <div class="media-bar-header">
-                        <div class="media-bar-title">               <h1>Media</h1>
-                        </div>
-                        <div id="media-bar-cross" class="media-close">
-                            <div class="media-close-line media-close-line-1"></div>
-                            <div class="media-close-line media-close-line-2"></div>
-                        </div>
-                    </div>
-                    <div class="media-bar-body">
-                        <div class="media-buttons-canvas">
-                            <div class="media-button media-video">
-                                <img src="image-store/icons/video-icon.png">
-                            </div>
-                            <div class="media-button media-image">
-                                <img src="image-store/icons/camera-icon.png">
-                            </div>
-                            <div class="media-button media-audio">
-                                <img src="image-store/icons/audio-icon.png">
-                            </div>
-                            <div class="media-button media-location">
-                                <img src="image-store/icons/location-icon.png">
-                            </div>
-                        </div>
-                    </div>
+                <div class="user-header-image"></div>
+                <div class="user-name-header">
+                    <h1>Arvind Kumar G</h1>
                 </div>
             </div>
+            <div id="message-feed" class="message-feed message-feed-unscrolled">
+
+            </div>
+            <div class="message-input-bar">
+                <div id="media-expand-arrow" class="media-expand-arrow">
+                    <div class="media-expand-arrow-line media-expand-arrow-line-1"></div>
+                    <div class="media-expand-arrow-line media-expand-arrow-line-2"></div>
+                    <div class="media-expand-arrow-line media-expand-arrow-line-3"></div>
+                </div>
+                <div class="message-text-input">
+                    <form class="message-send">
+                        <textarea id="message-input" placeholder="Message..." value=""></textarea>
+                    </form>
+                </div>
+            </div>
+            <div id="media-bar" class="media-bar">
+                <div class="media-bar-header">
+                    <div class="media-bar-title">
+                        <h1>Media</h1>
+                    </div>
+                    <div id="media-bar-cross" class="media-close">
+                        <div class="media-close-line media-close-line-1"></div>
+                        <div class="media-close-line media-close-line-2"></div>
+                    </div>
+                </div>
+                <div class="media-bar-body">
+                    <div class="media-buttons-canvas">
+                        <div class="media-button media-video">
+                            <img src="image-store/icons/video-icon.png">
+                        </div>
+                        <div class="media-button media-image">
+                            <img src="image-store/icons/camera-icon.png">
+                        </div>
+                        <div class="media-button media-audio">
+                            <img src="image-store/icons/audio-icon.png">
+                        </div>
+                        <div class="media-button media-location">
+                            <img src="image-store/icons/location-icon.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
-</html> 
+    </div>
+</body>
+
+</html>

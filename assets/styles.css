@@ -21,11 +21,12 @@ body {
     font-weight: 200;
 }
 
+
 .phone-canvas {
   position: relative;
   margin: 0 auto;
   width: 500px;
-  height: 889px;
+  height: 910px;
 }
 
 .chat-ui-canvas {
@@ -42,31 +43,19 @@ body {
 
 
 
-
-@media only screen and (max-width:414px) {/* iPhone 6 plus*/ 
-    .phone-canvas {
-      width: 600px;
+/* iPhone 6+ ----------- 
+@media all and (min-width: 414px) {
+ .phone-canvas {
+      width: 730px;
       height: 1100px;
   }
   .chat-ui-canvas {
-     min-width: 600px;
+     min-width: 730px;
   min-height: 1100px;
-  }
-}
+    }
+} */
 
 
-
-/* MinWidth 768 */ 
-@media only screen and (min-width:641px)  and (max-width:768px) { 
-    .phone-canvas {
-      width: 500px;
-      height: 889px;
-  }
-  .chat-ui-canvas {
-     min-width: 340px;
-    min-height: 604px;
-  }
-}
 
 
 .header {
@@ -167,7 +156,7 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
   transition-delay: 0.3s;
-  background-image: url("/image-store/3.png");
+  background-image: url("/image-store/bpat01.jpg");
   background-size: cover;
   top: -5%;
   height: 45%;
