@@ -618,3 +618,7 @@ body {
   top: -17.6% !important;
   transition: top 0.5s ease-in-out;
 }
+
+.linkcolor{
+  color: white;
+}
