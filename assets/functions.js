@@ -75,7 +75,7 @@ window.onload = function () {
 
         function createResponse(response) {
             $('#message-feed').append(
-                '<div class="message message-from"><div class="message-name"><h1>Arvind</h1></div><div class="message-body"><p>' + response + '</p></div><div class="message-timestamp"><p>Today ' + h + ' : ' + m + '</p></div>'
+                '<div class="message message-from"><div class="message-name"><h1>MyBot</h1></div><div class="message-body"><p>' + response + '</p></div><div class="message-timestamp"><p>Today ' + h + ' : ' + m + '</p></div>'
             );
             messageFeed.scrollTop = messageFeed.scrollHeight;
         };
